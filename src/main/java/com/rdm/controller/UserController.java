@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.rdm.model.UserInfo;
 import com.rdm.servie.UserService;
-
+//Test of branch
 @Controller
 public class UserController {
 	  @Autowired  
