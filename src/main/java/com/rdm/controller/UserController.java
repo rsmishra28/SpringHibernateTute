@@ -23,7 +23,8 @@ public class UserController {
 	  @RequestMapping(value ="/saveUser" ,  method = RequestMethod.POST)  
 	    public ModelAndView saveUserData(@ModelAttribute("user") UserInfo user,  
 	            BindingResult result) {  
-	  
+				//Test first commit
+		System.out.println("FN :"+user.getFirstName());
 		  System.out.println("FN :"+user.getFirstName());
 		  System.out.println("LN :"+user.getLastName());
 		  System.out.println("EM :"+user.getEmail());
